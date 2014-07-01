@@ -1,4 +1,14 @@
 DadSite::Application.routes.draw do
+  get "static_pages/home"
+  get "static_pages/help"
+  resources :comments
+
+  resources :posts do
+    resources :comments, :only => [:create]
+  end
+
+  resources :users
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
