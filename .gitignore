@@ -12,6 +12,19 @@ secret_token.rb
 
 # Ignore all the emacs backup files
 *~
+auto-save-list
+custom.el
+url/
+.org-id-locations
+\#*
+org-mode-config.el
+*~
+.#*
+\#*\#
+*.log
+.DS_Store
+org-clock-save.el
+emacs-config.el
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
