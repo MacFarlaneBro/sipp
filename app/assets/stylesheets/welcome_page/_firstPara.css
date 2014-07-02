@@ -1,0 +1,40 @@
+#Main {
+    position:absolute;
+    top: 150px;
+    float:left;
+    width:70%
+}
+
+#cartoon{
+    width:210px;
+    top:15px;
+    float:right;
+}
+
+#blogContainer {
+    border: black solid thick;
+    background-color:grey;
+    position:absolute;
+    float:right;
+    top: 165px;
+    left:72%;
+    width:25%;
+    height:75%;
+}
+
+#blogContainer h3{
+    font-style:bold;
+    font-size: 50px;
+    float:left;
+    width:50%;
+}
+
+#blogFeed {
+    border: black solid thin;
+    margin:0 auto;
+    position:relative;
+    height:68%;
+    width:95%;
+    word-wrap:break-word;
+    overflow-y:auto;
+}

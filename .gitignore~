@@ -7,9 +7,6 @@
 # Ignore bundler config.
 /.bundle
 
-# Ignore the secret token obviously
-secret_token.rb
-
 # Ignore the default SQLite database.
 /db/*.sqlite3
 /db/*.sqlite3-journal

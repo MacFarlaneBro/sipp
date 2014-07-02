@@ -1,0 +1,60 @@
+#topButtons {
+    position:absolute;
+    display:table;
+    table-layout:fixed;
+    top:110px;
+    left:0;
+    width:100%;
+    z-index:2;
+}
+
+#topButtons a{
+    display:table-cell;
+    text-align:center;
+    border:5px solid black;
+    color:black;
+}
+
+#topButtons a span{
+    font-size:20px;
+    text-transform:uppercase;
+    font-family:Gill sans;
+    font-weight:normal;
+    font-style:none;
+}
+
+#topButtons a:hover{
+    background-color:black;
+    color:red;
+}
+
+#guide{
+    background:#E18728;
+}
+
+.dropDowns{
+    position:relative;
+    list-style:none outside none;
+    display:inline;
+    background-color:black;
+}
+
+#sippProv{
+    background:#CCCCCC;
+}
+
+#why{
+    background:#4472B9;
+}
+
+#how{
+    background:pink;
+}
+
+#who{
+    background:orange;
+}
+
+#forum{
+    background:purple;
+}

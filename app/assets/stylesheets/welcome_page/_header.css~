@@ -1,0 +1,19 @@
+#header h1{
+    font-size: 80px;
+    float:top;
+    width:80%;
+    font-family:Verdana;
+    text-decoration:none;
+    color: white;
+    display:inline; 
+}
+
+#header{
+    width:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    height:110px;
+    background-color:black;
+}
+    
