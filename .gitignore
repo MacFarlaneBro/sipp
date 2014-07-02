@@ -11,7 +11,6 @@
 secret_token.rb
 
 # Ignore all the emacs backup files
-*~
 auto-save-list
 custom.el
 url/
