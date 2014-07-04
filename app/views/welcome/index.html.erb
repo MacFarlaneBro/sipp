@@ -7,20 +7,10 @@
   </head>
 
   <body>
-    <%= link_to controller: 'welcome' do %>
-      <div id="header">
-	<h1>Kansas City Pensions</h1>
-      </div>
-    <% end %>
-
-    <%= render "partials/topButtons" %>
-    
-    <div id="Main">
-      <div id="cartoon">
-	<%= image_tag("xtraNormal.jpg", alt: "xtra normal image") %>
-      </div>
-    </div>
+    <%= render "partials/header" %>
 
     <%= render "partials/blogfeed" %>
+
+    <%= render "partials/footer" %>
   </body>
 </html>
