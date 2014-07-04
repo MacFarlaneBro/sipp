@@ -26,6 +26,7 @@ class PostsController < ApplicationController
   # POST /posts.json
   def create
     @post = Post.new(post_params)
+    @comment = @post.comments.build(params[:comment])
 
     respond_to do |format|
       if @post.save
@@ -77,5 +78,9 @@ class PostsController < ApplicationController
       authenticate_or_request_with_http_basic do |name, password|
         name == "admin" && password == "secret"
       end
+    end
+
+    def article_params
+        params.require(:article).permit(:title, :content, comments_attributes: [:article_id, :author, :email, :body, :content])
     end
 end

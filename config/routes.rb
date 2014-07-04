@@ -2,8 +2,9 @@ DadSite::Application.routes.draw do
 
   root 'welcome#index'
   get "welcome/index"
-  get "static_pages/home"
-  get "static_pages/help"
+  get "welcome/about"
+  get "welcome/contact"
+
 
   resources :posts do
     resources :comments, :only => [:create]
