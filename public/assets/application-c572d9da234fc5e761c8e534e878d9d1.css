@@ -1,0 +1,387 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_welcome_page
+
+
+ */
+
+/* line 1, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/scaffolds.css.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/scaffolds.css.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/scaffolds.css.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 21, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/scaffolds.css.scss */
+a {
+  color: #000;
+}
+/* line 23, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/scaffolds.css.scss */
+a:visited {
+  color: #666;
+}
+/* line 26, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/scaffolds.css.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 33, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/scaffolds.css.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 38, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/scaffolds.css.scss */
+#notice {
+  color: green;
+}
+
+/* line 42, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/scaffolds.css.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 48, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 55, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 65, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+#Main {
+    position:absolute;
+    top: 150px;
+    float:left;
+    width:70%
+}
+
+#cartoon{
+    width:210px;
+    top:15px;
+    float:right;
+}
+
+#blogContainer {
+    border: black solid thick;
+    background-color:grey;
+    position:absolute;
+    float:right;
+    top: 165px;
+    left:72%;
+    width:25%;
+    height:75%;
+}
+
+#blogContainer h3{
+    font-style:bold;
+    font-size: 50px;
+    float:left;
+    width:50%;
+}
+
+#blogFeed {
+    border: black solid thin;
+    margin:0 auto;
+    position:relative;
+    height:68%;
+    width:95%;
+    word-wrap:break-word;
+    overflow-y:auto;
+}
+#header{
+    width:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    height:110px;
+    background-color:black;
+    h1{
+	font-size: 80px;
+	position:relative;
+	top:40px;
+	width:80%;
+	font-family:Verdana;
+	text-decoration:none;
+	color: white;
+	display:inline; 
+    }
+}
+
+#topButtons {
+    position:absolute;
+    display:table;
+    table-layout:fixed;
+    top:110px;
+    left:0;
+    width:100%;
+    z-index:2;
+}
+
+#topButtons a{
+    display:table-cell;
+    text-align:center;
+    border:5px solid black;
+    color:black;
+}
+
+#topButtons a span{
+    font-size:20px;
+    text-transform:uppercase;
+    font-family:Gill sans;
+    font-weight:normal;
+    font-style:none;
+}
+
+#topButtons a:hover{
+    background-color:black;
+    color:red;
+}
+
+#guide{
+    background:#E18728;
+}
+
+.dropDowns{
+    position:relative;
+    list-style:none outside none;
+    display:inline;
+    background-color:black;
+}
+
+#sippProv{
+    background:#CCCCCC;
+}
+
+#why{
+    background:#4472B9;
+}
+
+#how{
+    background:pink;
+}
+
+#who{
+    background:orange;
+}
+
+#forum{
+    background:purple;
+}
+/* line 1, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/welcome_page/_firstPara.css */
+#Main {
+  position: absolute;
+  top: 150px;
+  float: left;
+  width: 70%;
+}
+
+/* line 8, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/welcome_page/_firstPara.css */
+#cartoon {
+  width: 210px;
+  top: 15px;
+  float: right;
+}
+
+/* line 14, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/welcome_page/_firstPara.css */
+#blogContainer {
+  border: black solid thick;
+  background-color: grey;
+  position: absolute;
+  float: right;
+  top: 165px;
+  left: 72%;
+  width: 25%;
+  height: 75%;
+}
+
+/* line 25, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/welcome_page/_firstPara.css */
+#blogContainer h3 {
+  font-style: bold;
+  font-size: 50px;
+  float: left;
+  width: 50%;
+}
+
+/* line 32, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/welcome_page/_firstPara.css */
+#blogFeed {
+  border: black solid thin;
+  margin: 0 auto;
+  position: relative;
+  height: 68%;
+  width: 95%;
+  word-wrap: break-word;
+  overflow-y: auto;
+}
+
+/* line 1, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/welcome_page/_header.css */
+#header {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 110px;
+  background-color: black;
+}
+/* line 8, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/welcome_page/_header.css */
+#header h1 {
+  font-size: 80px;
+  position: relative;
+  top: 40px;
+  width: 80%;
+  font-family: Verdana;
+  text-decoration: none;
+  color: white;
+  display: inline;
+}
+
+/* line 1, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/welcome_page/_topButtons.css */
+#topButtons {
+  position: absolute;
+  display: table;
+  table-layout: fixed;
+  top: 110px;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+/* line 11, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/welcome_page/_topButtons.css */
+#topButtons a {
+  display: table-cell;
+  text-align: center;
+  border: 5px solid black;
+  color: black;
+}
+
+/* line 18, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/welcome_page/_topButtons.css */
+#topButtons a span {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: Gill sans;
+  font-weight: normal;
+  font-style: none;
+}
+
+/* line 26, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/welcome_page/_topButtons.css */
+#topButtons a:hover {
+  background-color: black;
+  color: red;
+}
+
+/* line 31, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/welcome_page/_topButtons.css */
+#guide {
+  background: #E18728;
+}
+
+/* line 35, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/welcome_page/_topButtons.css */
+.dropDowns {
+  position: relative;
+  list-style: none outside none;
+  display: inline;
+  background-color: black;
+}
+
+/* line 42, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/welcome_page/_topButtons.css */
+#sippProv {
+  background: #CCCCCC;
+}
+
+/* line 46, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/welcome_page/_topButtons.css */
+#why {
+  background: #4472B9;
+}
+
+/* line 50, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/welcome_page/_topButtons.css */
+#how {
+  background: pink;
+}
+
+/* line 54, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/welcome_page/_topButtons.css */
+#who {
+  background: orange;
+}
+
+/* line 58, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/welcome_page/_topButtons.css */
+#forum {
+  background: purple;
+}
+
+/* line 5, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/welcome_page/index.css.scss.css */
+body {
+  background-color: #AAABBB;
+}
+
+/* line 9, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/welcome_page/index.css.scss.css */
+li a {
+  list-style: none;
+  text-decoration: none;
+  font: 15px Verdana;
+  color: white;
+}
+
+/* line 15, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/welcome_page/index.css.scss.css */
+#topButtons {
+  margin-left: 0;
+  padding: 0;
+  color: white;
+  list-style-type: none;
+  text-align: justify;
+  height: 21px;
+}
+
+/* line 24, /Users/charliebrodie/Sites/dad_site/app/assets/stylesheets/welcome_page/index.css.scss.css */
+#topList > li {
+  margin-left: 0;
+  width: 24%;
+  vertical-align: top;
+  background: gray;
+  position: static;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid black;
+  color: white;
+}
