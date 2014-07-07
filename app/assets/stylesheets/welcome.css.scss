@@ -3,16 +3,6 @@
 @import 'blogfeed';
 @import 'footer';
 
-html { 
-    overflow-y: scroll;
-    background-color:#AAABBB;
-}
-
-body { 
-    padding-top: 60px;
-    background-color:#AAABBB;
-}
-
 textarea {
     resize: vertical;
     background-color:#AAABBB;
@@ -31,7 +21,7 @@ textarea {
 }
 
 #logo:hover {
-    text-color: #ddd;
+    text-color: #aaa;
     text-decoration: none;
 } 
 

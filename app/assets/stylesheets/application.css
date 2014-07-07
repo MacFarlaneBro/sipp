@@ -12,6 +12,12 @@
  *= require_self
  *= require_tree .
  */
+html { 
+    overflow-y: scroll;
+    background-color:#AAABBB;
+}
+
 body { 
-    background-color:AAABBB;
+    padding-top: 60px;
+    background-color:#AAABBB;
 }

@@ -40,13 +40,17 @@
 	} 
 	&:hover{
 	    color:white;
-	    background:#AAAAAA;
 	}
     }
-
+    &:hover{
+	background:black;
+    }
 
     #guide{
 	background:#E18728;
+	&:hover{
+	    background:black;
+	}
     }
 
     #sippProv{

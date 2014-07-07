@@ -3,8 +3,9 @@
     <%= link_to 'Blog', controller: 'posts' %>
   </h3>
   <% @posts.order('created_at DESC').each do |post| %>
-    <div>
+    <div class="post">
       <h4><%=link_to "#{post.title}", post %></h4>
-      <p><%= post.body %>  <%= post.created_at.strftime("%d %b. %Y") %></p></div>
+      <p><%= post.body %>  <%= post.created_at.strftime("%d %b. %Y") %></p>
+    </div>
     <% end %>
 </div>
