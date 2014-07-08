@@ -3,12 +3,21 @@ ruby '2.0.0'
 #ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails', '4.0.8'
-gem 'bootstrap-sass', '2.3.2.0'
+gem 'bootstrap-sass', '~> 3.1'
 gem 'sprockets', '2.11.0'
 gem 'bcrypt-ruby', '3.0.1'
 gem 'jquery-rails', '3.0.4'
 gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '1.0.2'
+
+# user model controlling gem
+gem 'devise'
+
+gem 'forem', :github => "radar/forem", :branch => "rails4"
+gem 'forem-bootstrap', github: "radar/forem-bootstrap"
+gem 'forem-redcarpet', github: "radar/forem-redcarpet"
+
+gem 'will_paginate', '3.0.5'    
 
 group :assets do
   gem 'sass-rails', '~> 4.0.0'

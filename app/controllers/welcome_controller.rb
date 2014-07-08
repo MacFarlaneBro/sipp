@@ -1,4 +1,6 @@
 class WelcomeController < ApplicationController
+  layout "home", only: :index
+
   def index
       @posts = Post.all
   end
@@ -17,7 +19,7 @@ class WelcomeController < ApplicationController
     @blog_posts = Post.order("updated_at desc")# ordering the blog by date updated
 
     #The blog feed's update timestamp
-    @updated = @blog_posts.first.updated_at unless @news_tiems.empty?
+    @updated = @blog_posts.first.updated_at unless @news_items.empty?
 
     respond_to do |format|
       format.atom { render :layout => false }
