@@ -7,7 +7,6 @@ DadSite::Application.routes.draw do
   # We ask that you don't use the :as option here, as Forem relies on it being the default of "forem"
   mount Forem::Engine, :at => '/forums'
 
-
   devise_for :users
   root 'welcome#index'
   get "welcome/index"

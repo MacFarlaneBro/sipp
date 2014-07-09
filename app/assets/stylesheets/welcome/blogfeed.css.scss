@@ -1,0 +1,23 @@
+#blogfeed {
+    top: 120px;
+    border: 2px solid;
+    float: right;
+    position: fixed;
+    width: 250px;
+    right: 20px;
+
+    h3 { 
+	text-align: center;
+	text-color:green;
+	size: 70px;
+    }
+
+    p { 
+	size: 30px;
+	alignment:right;
+    }
+}
+
+.post {
+    border-bottom: 1px solid black;
+}
