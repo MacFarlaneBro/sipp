@@ -1,11 +1,10 @@
-@import 'bootstrap.css';
-@import 'partials/header.css';
-@import 'welcome/blogfeed.css';
-@import 'partials/footer.css';    
+@import '../bootstrap.css';
+@import '../partials/header.css';
+@import 'blogfeed.css';
+@import '../partials/footer.css';    
 
 textarea {
     resize: vertical;
-    background-color:#AAABBB;
 }
 
 

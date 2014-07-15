@@ -1,5 +1,4 @@
 class WelcomeController < ApplicationController
-  layout "home", only: :index
 
   def index
       @posts = Post.all
