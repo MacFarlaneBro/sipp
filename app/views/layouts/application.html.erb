@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Kansas City Pensions</title>
+    <title> <%= full_title(yield(:title)) %> </title>
     <%= stylesheet_link_tag "application", media: "all",
         "data-turbolinks-track" => true %>
     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
@@ -10,7 +10,6 @@
   <body>
     
     <%= render "partials/header" %>
-
     
     <p class="notice"><%= notice %></p> 
     <p class="alert"><%= alert %></p> 

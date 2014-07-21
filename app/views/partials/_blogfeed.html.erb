@@ -1,11 +1,11 @@
-<div id="blogfeed">
-  <h3>
-    <%= link_to 'Blog', controller: 'posts' %>
-  </h3>
-  <% @posts.order('created_at DESC').each do |post| %>
-    <div class="post">
-      <h4><%=link_to "#{post.title}", post %></h4>
-      <p><%= post.body %>  <%= post.created_at.strftime("%d %b. %Y") %></p>
-    </div>
-    <% end %>
+<div id="blogfeed" class="mainpagediv">
+<h3>
+  <%= link_to 'Blog', controller: 'posts' %>
+</h3>
+<% @posts.order('created_at DESC').each do |post| %>
+  <div class="post">
+    <h4><%=link_to "#{post.title}", truncate(post.body, :length => 30) %></h4><%= post.created_at.strftime("%d %b. %Y") %>
+    <p><%= post.body %></p>
+  </div>
+<% end %>
 </div>

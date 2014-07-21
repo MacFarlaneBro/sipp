@@ -1,5 +1,5 @@
- $(window).scroll(function(){
-    if($(window).scrollTop() > 110){ 
+$(window).scroll(function(){
+    if($(window).scrollTop() > 40){ 
 	$("#topButtons").css({
 	    "position": "fixed",
 	    "top": "0"

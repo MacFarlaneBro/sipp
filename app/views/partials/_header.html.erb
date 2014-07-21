@@ -1,11 +1,11 @@
-<header class="navbar navbar-fixed-top navbar-inverse">
+<header class="navbar navbar-inverse">
   <div class="navbar-inner">
     <div class="container">
       <%= link_to "Kansas City Pensions", '/welcome/index', id: "logo" %>
-      <nav>
-        <ul class="nav pull-right">
-          <li><%= link_to "Home",    '/welcome/index' %></li>
-          <li><%= link_to "Sign up",    '/users/new' %></li>
+      <%= section_title(yield(:title)) %>
+     <nav>
+        <ul class="pull-right">
+          <li><%= link_to "Sign up", '/users/new' %></li>
           <li><%= link_to "Sign in", '/users' %></li>
         </ul>
       </nav>

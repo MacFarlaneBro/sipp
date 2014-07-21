@@ -15,7 +15,7 @@ class WelcomeController < ApplicationController
     @title = "Blog"
 
     #Blog Posts
-    @blog_posts = Post.order("updated_at desc")# ordering the blog by date updated
+    @blog_posts = Post.order("updated_at desc").limit(3)# ordering the blog by date updated and limiting posts to 3
 
     #The blog feed's update timestamp
     @updated = @blog_posts.first.updated_at unless @news_items.empty?
