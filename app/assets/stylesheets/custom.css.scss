@@ -10,12 +10,6 @@ $grayMediumLight: #eaeaea;
   box-sizing: border-box;
 }
 
-header {
-    position: absolute;
-    width:100%;
-    background:black;
-}
-
 a {
     text-decoration:none;
     &:hover{
@@ -40,7 +34,9 @@ html {
 }
 
 body {
-  background-color:lightgrey;
+  padding:0;
+  margin:0;
+  background-color:#444;
   .mainpagediv{
   }
 }
@@ -226,12 +222,16 @@ input, textarea, select, .uneditable-input {
   @include box_sizing;
 }
 
-label {
-    align:left;
-}
+/* label { */
+/*     align:left; */
+/* } */
 
 input {
   height: auto !important;
+}
+
+.form-inputs {
+    left:50%;
 }
 
 #error_explanation {
@@ -241,6 +241,8 @@ input {
     margin: 0 0 18px 0;
   }
 }
+
+
 
 .field_with_errors {
   @extend .control-group;
@@ -275,9 +277,14 @@ input {
 }
 
 .content {
+    h3{	size:50px;
+    }
+    padding:2px;
     display: block;
-    border: 2px solid darkgrey;    
-    width: 75%;
+    margin-left:5px;
+    background:#222;
+    color:#999;
+    width: 60%;
     float:left;
 }
 
@@ -299,7 +306,14 @@ input {
 /* blogfeed */
 
 #blogfeed {
-    float:left;
-    width: 20%;
+    h3 {
+	text-align:center;
+	top:3px;
+	border-bottom:1px solid darkgrey;
+    }
+    background:black;
+    float:right;
+    margin-right: 10px;
+    width: 25%;
     border: 2px solid darkgrey;
 }
